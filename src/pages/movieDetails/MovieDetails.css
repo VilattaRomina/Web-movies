@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@100;400;500&display=swap');
+
+.content-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 3rem;
+    margin-top: 120px;
+    padding: 1rem 4rem;
+
+}
+
+.content-img img{
+    border-radius: 20px;
+    height: fit-content;
+    max-width: 350px;
+    overflow: hidden;
+   
+}
+
+.content-info{
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-start;
+    font-family: 'Urbanist', sans-serif;
+    font-style: normal;
+    font-size: 0.8rem;
+    line-height: 1.6rem;
+}
+
+.title{
+   font-size: 2rem; 
+   line-height: 2.5rem;
+}
+
+.genre{
+    font-size: 1rem;
+}
