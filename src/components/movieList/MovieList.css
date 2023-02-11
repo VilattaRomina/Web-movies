@@ -1,0 +1,8 @@
+.container-movie-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
+    gap:1.5rem;
+    margin-top: 150px;
+    padding: 1rem 3rem;
+    grid-gap: 1rem;
+}
